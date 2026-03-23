@@ -1,0 +1,22 @@
+artifact_path: file:C:/Users/Lenovo/churn-prediction-mlops/notebooks/mlruns/1/models/m-a1a603754d1546418ab4db2fcac99b2f/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.13.5
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.10.1
+model_id: m-a1a603754d1546418ab4db2fcac99b2f
+model_size_bytes: 582385
+model_uuid: m-a1a603754d1546418ab4db2fcac99b2f
+prompts: null
+run_id: 61fbccd1f1bb487fa71eb228bfacb997
+utc_time_created: '2026-03-23 11:32:50.540859'
