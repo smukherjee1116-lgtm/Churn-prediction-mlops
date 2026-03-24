@@ -6,13 +6,13 @@ import pandas as pd
 from typing import Optional
 
 # Load model artifacts
-with open('../models/churn_model.pkl', 'rb') as f:
+with open('./models/churn_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
-with open('../models/scaler.pkl', 'rb') as f:
+with open('./models/scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 
-with open('../models/feature_names.pkl', 'rb') as f:
+with open('./models/feature_names.pkl', 'rb') as f:
     feature_names = pickle.load(f)
 
 # Initialize FastAPI
