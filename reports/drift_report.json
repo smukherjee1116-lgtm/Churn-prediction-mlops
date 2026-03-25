@@ -1,0 +1,38 @@
+{
+  "tenure": {
+    "ks_statistic": 0.4235,
+    "p_value": 0.0,
+    "drift_detected": true,
+    "psi": 2.7335
+  },
+  "MonthlyCharges": {
+    "ks_statistic": 0.3026,
+    "p_value": 0.0,
+    "drift_detected": true,
+    "psi": 0.308
+  },
+  "TotalCharges": {
+    "ks_statistic": 0.0134,
+    "p_value": 0.9493,
+    "drift_detected": false,
+    "psi": 0.0087
+  },
+  "NumServices": {
+    "ks_statistic": 0.2841,
+    "p_value": 0.0,
+    "drift_detected": true,
+    "psi": 1.1091
+  },
+  "AvgMonthlySpend": {
+    "ks_statistic": 0.015,
+    "p_value": 0.8847,
+    "drift_detected": false,
+    "psi": 0.0
+  },
+  "ChargePerService": {
+    "ks_statistic": 0.0206,
+    "p_value": 0.5478,
+    "drift_detected": false,
+    "psi": 0.0062
+  }
+}
